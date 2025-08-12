@@ -16,6 +16,7 @@ def download_video(url):
     os.environ["PATH"] += os.pathsep + os.path.abspath(os.path.dirname(ffmpeg_path))
 
     ydl_opts = {
+        # Формат указывается в виде строки, например 'bestvideo+bestaudio/best в config.ini
         'format': video_format,
         'merge_output_format': 'mp4',
         'progress_hooks': [progress_hook],
