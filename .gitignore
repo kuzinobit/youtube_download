@@ -1,5 +1,8 @@
 .idea/
 .venv/
-ffmpeg/
+ffmpeg/bin/ffmpeg
+ffmpeg/bin/ffmpeg.exe
+ffmpeg/bin/ffplay.exe
+ffmpeg/bin/ffprobe.exe
 .DS_Store
 ico.png
